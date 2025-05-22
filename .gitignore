@@ -1,0 +1,11 @@
+# .gitignore
+
+.env
+*.pyc
+__pycache__/
+venv/
+.venv/
+# Add any other files/directories you want to ignore
+chroma_db_store*/ 
+output_jsons/ # If you don't want to track these generated files
+*.log
